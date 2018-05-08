@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-weight: normal;
+}
+
+body {
+  font-size: 14px;
+  font-family: verdana;
+  color: #fff;
+  background-color: #fff;
+}
+
+.clear {
+  overflow: hidden;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #abc;
+}
+
+.header-section {
+  height: 120px;
+  background-color: #81201a;
+}
+
+.header-left {
+  float: left;
+  padding: 25px 0px 0px 10px;
+}
+
+.header-left h2 {
+  font-size: 32px;
+}
+
+.header-left h3 {
+  font-size: 12px;
+  color: #d2d2d2;
+}
+
+.header-right {
+  float: right;
+  width: 685px;
+}
+
+.main-menu {
+  margin-top: 25px;
+}
+
+.main-menu ul {
+  list-style: none;
+}
+
+.main-menu ul li {
+  display: block;
+  float: left;
+  padding: 5px 0px 0px 20px;
+}
+
+.main-menu ul li a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #d2d2d2;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.main-menu ul li a:hover, #active {
+  color: #3e0d09;
+  border-top: 2px solid #3e0d09;
+}
+
+.main-menu ul li a span {
+  display: block;
+  font-size: 12px;
+  color: #999999;
+}
+
+.banner-section {
+  background-color: #3e0d09;
+  height: 300px;
+  position: relative;
+}
+
+.banner-left {
+  float: left;
+  width: 510px;
+  padding: 40px 10px;
+}
+
+.banner-left h2 {
+  font-size: 46px;
+}
+
+.banner-left p {
+  margin-top: 25px;
+  color: #fff5f5;
+}
+
+.banner-right {
+  width: 460px;
+  float: right;
+}
+
+.thumbnail {
+  margin-top: 45px;
+  margin-left: 30px;
+}
+
+.thumbnail img {
+  padding: 2px;
+}
+
+.content-section {
+  height: 340px;
+  background-color: #e4dfcb;
+}
+
+.main-content {
+  height: 350px;
+  width: 920px;
+  background-color: #fff;
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 40px;
+}
+
+.post {
+  width: 260px;
+  padding: 23px;
+  float: left;
+}
+
+.post h2 {
+  color: #660000;
+  font-size: 18px;
+  padding: 10px 0px;
+  border-bottom: 1px solid #666666;
+}
+
+.post ul {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.post ul li {
+  color: #666666;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.post p {
+  font-size: 12px;
+  color: #666666;
+  margin-top: 15px;
+}
+
+.post h3 {
+  color: #666666;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+.footer-top {
+  height: 365px;
+  background-color: #cec6a2;
+}
+
+.top-left {
+  width: 405px;
+  float: left;
+}
+
+.top-left h2 {
+  color: #333333;
+  margin: 15px 60px 0px 14px;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 10px;
+}
+
+.top-left p {
+  float: left;
+  color: #666666;
+  padding: 15px;
+}
+
+.top-left p input[type="text"] {
+  width: 170px;
+  height: 25px;
+  border: 1px solid #666666;
+}
+
+.top-left p input[type="email"] {
+  width: 170px;
+  height: 25px;
+  border: 1px solid #666666;
+}
+
+.top-left textarea {
+  border: 1px solid #666666;
+}
+
+.top-left input[type="submit"] {
+  width: 70px;
+  height: 30px;
+  margin-left: 15px;
+  color: #666666;
+}
+
+.top-left input[type="reset"] {
+  width: 70px;
+  height: 30px;
+  margin-left: 20px;
+  color: #666666;
+}
+
+.content-right {
+  width: 550px;
+  float: right;
+}
+
+.contact-post {
+  width: 180px;
+  height: 230px;
+  float: left;
+}
+
+.contact-post h2 {
+  color: #333333;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.contact-post p {
+  padding-top: 20px;
+  padding-right: 15px;
+  text-align: left;
+  color: #000;
+}
+
+.subscription {
+  width: 535px;
+  padding-top: 70px;
+}
+
+.subscription h2 {
+  float: left;
+  font-size: 12px;
+  background: #e4dfcb;
+  padding: 8px 5px;
+  color: #666666;
+}
+
+.subscription p {}
+
+.subscription p input[type="email"] {
+  width: 195px;
+  height: 30px;
+  margin-left: 10px;
+  border: 1px solid #666666;
+}
+
+.subscription p input[type="submit"] {
+  width: 40px;
+  height: 35px;
+  font-size: 16px;
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.footer-section {
+  height: 45px;
+  background-color: #250705;
+}
+
+.footer-section p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 15px;
+}
